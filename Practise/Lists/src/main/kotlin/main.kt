@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     //IMMUTABLE LISTS
     val greatBands = listOf("Tool", "Puscifer", "GoGo Penguin", "Alt-J")
     println(greatBands)

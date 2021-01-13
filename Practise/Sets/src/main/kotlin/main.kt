@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     //IMMUTABLE SETS
 
     val veganFood = setOf("Hummus", "Falafel", "basically every vegetable ever")

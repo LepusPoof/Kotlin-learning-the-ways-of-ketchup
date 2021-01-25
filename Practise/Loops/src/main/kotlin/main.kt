@@ -106,6 +106,20 @@ fun main() {
             "Szczecin", "Maciej" to "Pilchowo")
 
     println(friendCity)
+    println()
 
+    for(entry in friendCity){
+        println("${entry.key} lives in ${entry.value}. ")
+    }
+    println()
+
+    for((friend, city) in friendCity){
+        println("$friend lives in $city.")
+    }
+
+
+    //WHILE LOOPS
+
+    while ()
 }
 

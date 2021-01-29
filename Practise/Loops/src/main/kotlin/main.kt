@@ -48,9 +48,10 @@ fun main() {
         }
     }
 
+    //FOR LOOPS - SETS
+
     val myFriends = setOf("Karolina", "Gracjan", "Przemek", "Antek", "Maciej")
 
-    //FOR LOOPS - SETS
     println(" --SETS-- \n")
 
     println("1ST WAY OF LOOPING")
@@ -120,6 +121,26 @@ fun main() {
 
     //WHILE LOOPS
 
-    while ()
+    println()
+    println("--WHILE LOOPS--\n")
+    var numberOfTeeth = 32;
+
+
+    while (numberOfTeeth >= 20){
+        println("You can probably still bite other people. You have $numberOfTeeth teeth left.\n")
+        numberOfTeeth--;
+    }
+
+    //DO...WHILE LOOPS
+
+    println()
+    println("--DO...WHILE LOOPS--")
+    println()
+
+    val falseStatement = false;
+
+    do{
+        println("I loop once!")
+    } while (falseStatement == true)
 }
 
